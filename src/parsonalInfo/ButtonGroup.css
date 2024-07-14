@@ -1,0 +1,21 @@
+.buttons{
+   
+    width: 180px;
+    padding: 5px;
+    
+}
+.selectade{
+    width: 180px;
+    padding: 5px;
+    background-color: aqua; 
+    
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+margin: 5px;
+}
+.SideTex{
+    background-color:#f7f7f7;
+    width: 100%;
+}

@@ -1,0 +1,150 @@
+.Feeds{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 75%;
+    
+   
+
+}
+.Feed{
+    padding: 20px;
+    border-radius: .5rem;
+    background: var(--color-card);
+    width: 100%;
+    overflow: hidden ;
+    
+}
+
+.Feed .top-center{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.Feed p{
+    margin-bottom: 1rem;
+}
+.Feed .top-center img{
+    max-height: 480px;
+    
+   
+    border-radius: 5rem;
+    aspect-ratio: 1rem 0;
+}
+.mid-cotent img {
+    width: 100%;
+    max-height:480px ;
+}
+.maneSection{
+   
+}
+.Feed {
+    background-color: #fdfdfd;
+    margin-top: 20px;
+    padding: 50px;
+}
+.action-item{
+    padding-top: 15px;
+}
+.action-item i {
+    padding-left: 20px;
+  
+}
+.bottom-content p {
+    padding-top: 20px;
+    color: #838180;
+    
+}
+#toolTip{
+    position: relative;
+    cursor: pointer;
+     padding: 7px;
+    font-size: 16px;
+    font-weight: semibold;
+    
+}
+#toolTipText{
+    position: absolute;
+    right: -90px;
+    top: 0;
+    transform: translate(-50%);
+    background-color: rgb(255, 255, 254);
+    color: #000;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+#toolTipText::before{
+    content: "";
+    position: absolute;
+    right: 20%;
+    bottom: 100%;
+    transform: translate(-50%);
+   
+}
+#toolTip:hover #toolTipText {
+    margin-top: 35px;
+    margin-right: 35px;
+    bottom: -330%;
+    visibility: visible;
+    opacity: 1;
+
+}
+#toolTipText i{
+   line-height: 20px;
+}
+.textColor{
+   
+    padding-left: 20px;
+}
+#toolTip2{
+    position: relative;
+    cursor: pointer;
+     padding: 7px;
+    font-size: 16px;
+    font-weight: semibold;
+    
+}
+#toolTipText2{
+    position: absolute;
+    right: -90px;
+    top: 0;
+    transform: translate(-50%);
+    background-color: #000;
+    color: #efe9e9;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 14px;
+    transition: opacity 0.2s ease;
+}
+#toolTipText2::before{
+    content: "";
+    position: absolute;
+    right: 20%;
+    bottom: 100%;
+    transform: translate(-50%);
+    border: 15px solid;
+    border-color: #000 #0000 #0000 #0000;
+    margin-bottom: -70px;
+   
+}
+#toolTip2:hover #toolTipText2 {
+    margin-top: 40px;
+    margin-right: 38px;
+    top: -230%;
+    visibility: visible;
+    opacity: 1;
+
+}
+.shire {
+    padding: 7px;
+  
+}
